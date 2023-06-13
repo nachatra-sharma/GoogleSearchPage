@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fa/css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Search</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div>
+          <a class="searches" href="index.html">Google Search</a>
+        </div>
+        <div>
+          <a class="searches" href="advance-search.html"
+            >Google Advance Search</a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="google-logo">
+        <img src="image/google.jpg" alt="" />
+      </div>
+      <div class="input-box">
+        <form action="https://www.google.com/search" method="get">
+          <i class="fa fa-search search-icon"></i>
+          <input class="search-query" type="text" name="q" />
+          <input type="hidden" name="tbm" value="isch" />
+          <div class="search-button">
+            <input type="submit" value="Image Search" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
