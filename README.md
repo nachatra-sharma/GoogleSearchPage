@@ -23,6 +23,13 @@ A short video where I go through the required specifications of the project: htt
 - **Lucky**. Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
 - **Aesthetics**. The CSS you write should match Google’s own aesthetics as best as possible.
 
+## Assignment View
+
+![google-search](./google-search.png)
+![image-search](./image-search.png)
+![advance-search](./advance-search.png)
+
+
 ## Checkout my project by clicking below
 
 [Google Search Page](https://nachatra-sharma.github.io/GoogleSearchPage/)
